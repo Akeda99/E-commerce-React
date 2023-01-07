@@ -1,0 +1,86 @@
+.product-description{
+margin-top: 40px;
+}
+.img-principal{
+    width: 300px;
+}
+.container-content{
+    display: flex;
+    gap: 200px;
+    padding:0 9rem ;
+}
+.description{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.price span , .quantity span{
+    color: lightgray;
+    font-weight: 400;
+}
+.price-quantity{
+    display: flex;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+.plus-minus{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.minus, .plus{
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+.minus, .plus, .counter{
+    border:1px solid #a1a1a1;
+    border-color: lightgray;
+    width: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.button-cart-info{
+background-color: #F85555;
+color: white;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+width: 500px;
+height: 50px;
+}
+.similar-products-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+    padding-left: 2rem;
+    
+}
+.similar-section-container h2{
+font-size: 15px;
+color: #F85555;
+}
+.content-product-similar{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+.title-desc{
+    margin-left: 41%;
+    padding: 4rem;
+}
+.slider-description{
+    position: absolute ;
+    margin-top: 7rem;
+}
+.product-description-des{
+    position: relative;
+    
+}
+.title-product-especific{
+    margin-bottom: 2rem;
+}

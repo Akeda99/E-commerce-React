@@ -1,0 +1,31 @@
+.container-purchases{
+padding: 4rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+.title-direction{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.title-direction strong{
+    color: red;
+    font-size: 40px;
+}
+.title-direction{
+    display: flex;
+font-weight: 300;
+font-size: 15px;
+}
+.title-direction span{
+    font-weight: 500;
+}
+.purchases-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
